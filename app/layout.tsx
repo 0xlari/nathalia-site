@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     "tradução para reuniões",
     "relatoria profissional",
   ],
+  verification: {
+    google:"6w71t63VZL3V9ZXbz0ODVjb5hyRVdIaE-OsrQ4UaB40",
+  },
 };
 export default function RootLayout({
   children,
