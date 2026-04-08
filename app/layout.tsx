@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     "tradução simultânea Rio de Janeiro",
     "intérprete eventos RJ",
     "relatoria eventos RJ",
-    "tradução simultânea São Paulo".
+    "tradução simultânea São Paulo",
     "intérprete eventos SP",
-    "relatoria eventos SP"
+    "relatoria eventos SP",
   ],
   verification: {
     google:"6w71t63VZL3V9ZXbz0ODVjb5hyRVdIaE-OsrQ4UaB40",
