@@ -12,7 +12,7 @@ export default function Home() {
             </span>
 
             <h1 className="mt-6 text-4xl font-semibold leading-tight tracking-[-0.04em] md:text-6xl">
-              Tradução simultânea relatoria para eventos, reuniões e treinamentos
+              Tradução simultânea e relatoria para eventos, reuniões e treinamentos
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
