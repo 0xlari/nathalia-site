@@ -1,14 +1,10 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://nathalia-site.vercel.app/";
-
   return [
     {
-      url: baseUrl,
+      url: "https://nathalia-site.vercel.app",
       lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
     },
   ];
 }
