@@ -36,7 +36,7 @@ export default function RootLayout({
         <header className="border-b border-zinc-200 bg-white">
           <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
             <span className="text-base font-semibold tracking-[0.18em] text-zinc-900 uppercase">
-              Natália
+              Natália Belém
             </span>
 
             <nav className="hidden gap-8 md:flex">
@@ -67,7 +67,7 @@ export default function RootLayout({
         <footer className="border-t border-zinc-200 bg-white">
           <div className="mx-auto max-w-6xl px-6 py-10">
             <p className="text-sm text-zinc-500">
-              © {new Date().getFullYear()} Natália — Tradução simultânea e
+              © {new Date().getFullYear()} Natália Belém — Tradução simultânea e
               relatoria.
             </p>
           </div>

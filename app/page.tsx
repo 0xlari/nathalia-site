@@ -47,7 +47,7 @@ export default function Home() {
                   Idiomas
                 </p>
                 <p className="mt-2 text-sm font-medium text-slate-900">
-                  Inglês, espanhol e português
+                  Espanhol, português e inglês
                 </p>
               </div>
 
@@ -56,7 +56,7 @@ export default function Home() {
                   Registro
                 </p>
                 <p className="mt-2 text-sm font-medium text-slate-900">
-                  Relatoria profissional
+                  Tradução simultanêa, consecutiva e acompanhamentos personalizados.
                 </p>
               </div>
             </div>
@@ -187,7 +187,7 @@ export default function Home() {
 
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
-              Sobre Natália
+              Sobre Natália Belém
             </p>
 
             <h2 className="mt-4 text-3xl font-semibold leading-tight tracking-[-0.04em] md:text-5xl">
@@ -196,7 +196,7 @@ export default function Home() {
             </h2>
 
             <p className="mt-8 text-lg leading-8 text-slate-600">
-              Natália atua com tradução simultânea e relatoria para eventos,
+              Natália Belém atua com tradução simultânea e relatoria para eventos,
               reuniões e treinamentos, apoiando organizações que precisam de
               comunicação clara e registro confiável das informações.
             </p>
