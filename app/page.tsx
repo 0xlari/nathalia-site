@@ -56,7 +56,7 @@ export default function Home() {
                   Registro
                 </p>
                 <p className="mt-2 text-sm font-medium text-slate-900">
-                  Tradução simultanêa, consecutiva e acompanhamentos personalizados.
+                  Relatoria profissional, tradução simultanêa e acompanhamentos personalizados.
                 </p>
               </div>
             </div>
