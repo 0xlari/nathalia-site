@@ -13,6 +13,13 @@ export const metadata: Metadata = {
     "relatoria para eventos",
     "tradução para reuniões",
     "relatoria profissional",
+    "tradução simultânea RJ",
+    "tradução simultânea Rio de Janeiro",
+    "intérprete eventos RJ",
+    "relatoria eventos RJ",
+    "tradução simultânea São Paulo".
+    "intérprete eventos SP",
+    "relatoria eventos SP"
   ],
   verification: {
     google:"6w71t63VZL3V9ZXbz0ODVjb5hyRVdIaE-OsrQ4UaB40",

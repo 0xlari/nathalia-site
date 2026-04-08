@@ -17,8 +17,8 @@ export default function Home() {
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
               Serviço profissional de tradução simultânea e relatoria para empresas,
-              eventos corporativos, reuniões e treinamentos no Rio de Janeiro e também
-              em demandas sob consulta para outras localidades.
+              eventos corporativos, reuniões e treinamentos no Rio de Janeiro e em São Paulo,
+              com disponibilidade para atuação em outras cidades conforme a agenda.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
