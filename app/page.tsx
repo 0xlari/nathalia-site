@@ -12,17 +12,13 @@ export default function Home() {
             </span>
 
             <h1 className="mt-6 text-4xl font-semibold leading-tight tracking-[-0.04em] md:text-6xl">
-              Comunicação clara,
-              <br />
-              presença profissional
-              <br />
-              e registro confiável.
+              Tradução simultânea relatoria para eventos, reuniões e treinamentos
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              Serviços para eventos, reuniões e treinamentos que exigem
-              entendimento entre diferentes idiomas e organização precisa das
-              informações compartilhadas.
+              Serviço profissional de tradução simultânea e relatoria para empresas,
+              eventos corporativos, reuniões e treinamentos no Rio de Janeiro e também
+              em demandas sob consulta para outras localidades.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">

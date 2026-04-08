@@ -3,11 +3,18 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tradução simultânea e relatoria | Natália",
+  title: "Tradução simultânea e relatoria para eventos | Natália",
   description:
-    "Serviços profissionais de tradução simultânea e relatoria para eventos, reuniões e treinamentos.",
+    "Serviço profissional de tradução simultânea e relatoria para eventos, reuniões e treinamentos. Comunicação clara, registro confiável e atendimento profissional.",
+  keywords: [
+    "tradução simultânea",
+    "relatoria",
+    "tradução simultânea para eventos",
+    "relatoria para eventos",
+    "tradução para reuniões",
+    "relatoria profissional",
+  ],
 };
-
 export default function RootLayout({
   children,
 }: {
