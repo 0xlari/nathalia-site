@@ -141,7 +141,7 @@ export default async function Home({
                 <img
                   src="/imagens/nat_principal.jpeg"
                   alt={t.hero.imageAlt}
-                  className="h-[540px] w-full object-cover object-[50%_15%]"
+                  className="h-[360px] w-full object-cover object-[50%_15%] sm:h-[430px] md:h-[540px]"
                 />
               </div>
             </div>
@@ -283,7 +283,7 @@ export default async function Home({
             <img
               src="/imagens/inter.jpeg"
               alt={t.about.imageAlt}
-              className="h-[540px] w-full object-cover object-[60%_10%] object-cover transition duration-500 hover:scale-105"
+              className="h-[320px] w-full object-cover sm:h-[420px] md:h-[520px]"
             />
           </div>
 
