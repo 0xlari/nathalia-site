@@ -1,11 +1,14 @@
-import type { Metadata } from "next";
-import type { ReactNode } from "react";
 import "./globals.css";
+import { Inter } from "next/font/google";
 
-export const metadata: Metadata = {
-  title: "Tradução simultânea e relatoria para eventos | Natália",
+const inter = Inter({
+  subsets: ["latin"],
+});
+
+export const metadata = {
+  title: "Tradução simultânea e relatoria para eventos | Natália Belém",
   description:
-    "Serviço profissional de tradução simultânea e relatoria para eventos, reuniões e treinamentos. Comunicação clara, registro confiável e atendimento profissional.",
+    "Serviço profissional de tradução simultânea e relatoria para eventos, reuniões e treinamentos.",
   keywords: [
     "tradução simultânea",
     "relatoria",
@@ -13,72 +16,20 @@ export const metadata: Metadata = {
     "relatoria para eventos",
     "tradução para reuniões",
     "relatoria profissional",
-    "tradução simultânea RJ",
-    "tradução simultânea Rio de Janeiro",
-    "intérprete eventos RJ",
-    "relatoria eventos RJ",
-    "tradução simultânea São Paulo",
-    "intérprete eventos SP",
-    "relatoria eventos SP",
-    "interpretação simultânea para conferências",
-    "interpretação simultânea no rio de janeiro",
-    "interpretação simultânea em são paulo",
-    "relatoria para conferências",
-    "tradução simultânea para treinamentos",
-    "relatoria para treinamentos",
   ],
   verification: {
-    google:"6w71t63VZL3V9ZXbz0ODVjb5hyRVdIaE-OsrQ4UaB40",
+    google: "6w7lt63VZL3V9ZXbz00DVjb5hyRVdIaE-OsrQ4UaB40",
   },
 };
+
 export default function RootLayout({
   children,
 }: {
-  children: ReactNode;
+  children: React.ReactNode;
 }) {
   return (
     <html lang="pt-BR">
-      <body>
-        <header className="border-b border-zinc-200 bg-white">
-          <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-            <span className="text-base font-semibold tracking-[0.18em] text-zinc-900 uppercase">
-              Natália Belém
-            </span>
-
-            <nav className="hidden gap-8 md:flex">
-              <a
-                href="#servicos"
-                className="text-sm text-zinc-600 transition hover:text-zinc-950"
-              >
-                Serviços
-              </a>
-              <a
-                href="#sobre"
-                className="text-sm text-zinc-600 transition hover:text-zinc-950"
-              >
-                Sobre
-              </a>
-              <a
-                href="#contato"
-                className="text-sm text-zinc-600 transition hover:text-zinc-950"
-              >
-                Contato
-              </a>
-            </nav>
-          </div>
-        </header>
-
-        {children}
-
-        <footer className="border-t border-zinc-200 bg-white">
-          <div className="mx-auto max-w-6xl px-6 py-10">
-            <p className="text-sm text-zinc-500">
-              © {new Date().getFullYear()} Natália Belém — Tradução simultânea e
-              relatoria.
-            </p>
-          </div>
-        </footer>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
