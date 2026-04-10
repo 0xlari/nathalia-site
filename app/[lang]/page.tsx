@@ -152,7 +152,7 @@ export default async function Home({
   <div className="mx-auto max-w-7xl px-6 py-14 md:py-16">
     <div className="text-center">
       <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#32453A]/60">
-        Clientes que já confiaram no meu trabalho
+        {t.trusted.title}
       </p>
     </div>
 
@@ -283,7 +283,7 @@ export default async function Home({
             <img
               src="/imagens/inter.jpeg"
               alt={t.about.imageAlt}
-              className="h-[540px] w-full object-cover object-[100%_10%] object-cover transition duration-500 hover:scale-105"
+              className="h-[540px] w-full object-cover object-[60%_10%] object-cover transition duration-500 hover:scale-105"
             />
           </div>
 

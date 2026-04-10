@@ -21,6 +21,9 @@ const pt = {
       reportingText: "Relatoria profissional, tradução simultânea e consecutiva, acompanhamentos personalizados etc.",
     },
   },
+  trusted: {
+  title: "Clientes que já confiaram no meu trabalho",
+  },
   services: {
     badge: "Serviços",
     title: "Soluções pensadas para encontros que exigem clareza e precisão",

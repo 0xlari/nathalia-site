@@ -21,6 +21,9 @@ const en = {
       reportingText: "Professional reporting, simultaneous and consecutive translation, personalized support, etc.",
     },
   },
+  trusted: {
+  title: "Clients who have trusted my work",
+  },
   services: {
     badge: "Services",
     title: "Solutions designed for meetings that require clarity and precision",
@@ -37,7 +40,7 @@ const en = {
     badge: "Differential",
     title: "More confidence for organizers",
     text1:
-      "Clear communication between participants speaking different languages and professional documentation of what was discussed.",
+      "Clear communication between different languages speakers and attendees and professional reporting of what was discussed.",
     text2:
       "Support that contributes to more accessible, organized meetings with better use of the content shared.",
   },

@@ -9,7 +9,7 @@ const es = {
     badge: "Traducción simultánea y relatoría",
     title: "Traducción simultánea y relatoría para eventos, reuniones y capacitaciones",
     description:
-      "Servicio profesional de traducción simultánea y relatoría para empresas, eventos corporativos, reuniones y capacitaciones en Río de Janeiro y São Paulo, con disponibilidad para otras ciudades según agenda.",
+      "Servicio profesional de traducción simultánea y relatoría para empresas, eventos corporativos, reuniones y capacitaciones en Río de Janeiro y San Pablo, con disponibilidad para otras ciudades según agenda.",
     whatsappCta: "Hablar por WhatsApp",
     imageAlt: "Natália Belém",
     cards: {
@@ -20,6 +20,9 @@ const es = {
       reportingLabel: "Registro",
       reportingText: "Informes profesionales, traducción simultánea y consecutiva, asistencia personalizada, etc.",
     },
+  },
+  trusted: {
+  title: "Clientes que ya confiaron en mi trabajo",
   },
   services: {
     badge: "Servicios",
