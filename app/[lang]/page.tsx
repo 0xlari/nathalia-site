@@ -161,7 +161,7 @@ export default async function Home({
         <img
           src="/imagens/clientes/cliente1.png"
           alt="Logo cliente 1"
-          className="h-30 w-auto object-contain opacity-80 grayscale"
+          className="h-15 w-auto object-contain opacity-80 grayscale"
         />
       </div>
 
@@ -169,7 +169,7 @@ export default async function Home({
         <img
           src="/imagens/clientes/cliente2.png"
           alt="Logo cliente 2"
-          className="h-30 w-auto object-contain opacity-80 grayscale"
+          className="h-15 w-auto object-contain opacity-80 grayscale"
         />
       </div>
 
@@ -177,7 +177,7 @@ export default async function Home({
         <img
           src="/imagens/clientes/cliente3.png"
           alt="Logo cliente 3"
-          className="h-30 w-auto object-contain opacity-80 grayscale"
+          className="h-15 w-auto object-contain opacity-80 grayscale"
         />
       </div>
 
@@ -185,7 +185,7 @@ export default async function Home({
         <img
           src="/imagens/clientes/cliente4.png"
           alt="Logo cliente 4"
-          className="h-30 w-auto object-contain opacity-100 grayscale"
+          className="h-15 w-auto object-contain opacity-100 grayscale"
         />
       </div>
     </div>
